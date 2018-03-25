@@ -25,7 +25,7 @@ body {
 }
 
 #navbar a:hover {
-  background-color: #ddd;
+  /*background-color: #ddd;*/
   color: black;
 }
 
@@ -39,11 +39,25 @@ body {
 }
 
 .sticky {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
 }
 
 .sticky + .content {
-  padding-top: 60px;
+  padding-top: auto;
+}
+
+.tooltable{
+  border-radius: 5px;
+  background-color: #efefef;
+  padding: 0 3% 0 3%;
+  border: 5px solid #dedede;
+  box-shadow: 0 0 8px #ccc;
+}
+
+.container{
+  padding-top: .8234159342em;
+  padding-right: 4em;
+  padding-left: 4em;
 }
