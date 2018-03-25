@@ -7,7 +7,6 @@ body {
   background-color: #ECE0D3;
   padding: 30px;
   text-align: center;
-  box-shadow: 0 0 20px #e8cdab
 }
 
 #navbar {
@@ -55,7 +54,7 @@ body {
   background-color: #ECE0D3;
   padding: 0 3% 0 3%;
   border: 5px solid #e8cdab;
-  box-shadow: 0 0 20px #ccc;
+  box-shadow: 0 0 40px #ccc;
 }
 
 #container{
