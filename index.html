@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="/alpha/alfa.css">
+	<title>Alpha's Hub</title>
+</head>
+<body>
+<div class="header">
+	<h2>Alpha's Hub</h2>
+	<p>Melhor Solucao para a Queda do Cabelo</p>
+</div>
+
+<div id="navbar">
+	<a class="active" href="javascript:void(0)">Home</a>
+	<a href="javascript:void(0)">Galeria de Fotos</a>
+	<a href="javascript:void(0)">Contato</a>
+</div>
+
+<div class="content">
+	<h3>Welcome to Alpha's Hub</h3>
+</div>
+
+
+<script type="text/javascript">
+	window.onscroll = function() {myfunction()};
+
+	var navbar = document.getElementById("navbar");
+	var sticky = navbar.offsetTop;
+
+	function myfunction(){
+		if (window,pageYOffset >= sticky) {
+			navbar.classList.add("sticky")
+		} else {
+			navbar.classList.remove("sticky");
+		}
+	}
+</script>
+
+
+</body>
+</html>
