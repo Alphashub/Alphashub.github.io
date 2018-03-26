@@ -1,0 +1,13 @@
+var create;
+var open;
+var list = 100;
+var first= 1;
+var last = first-1;
+
+if last<first:
+  last = first;
+  first = first+1;
+  
+return first;
+list = list+first;
+ return 0;
