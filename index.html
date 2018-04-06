@@ -24,9 +24,9 @@ img{vertical-align: middle;}
 </div>
 
 <div id="navbar">
-	<a class="active" href="/alpha/a/">Home</a>
-	<a href="/alpha/a/">Galeria de Fotos</a>
-	<a href="javascript:void(0)">Contato</a>
+	<a class=" tablink active" href="/Alphashub.github.io/index.html">Home</a>
+	<a class="tablink" href="/Alphashub.github.io/foto.html">Galeria de Fotos</a>
+	<a class="tablink" href="/Alphashub.github.io/contato.html">Contato</a>
 </div>
 
 <div class="content">
@@ -69,26 +69,7 @@ img{vertical-align: middle;}
 	<span class="dot"></span>
 </div>
 
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 1000); // Change image every 2 seconds
-}
+<script src="/Alphashub.github.io/lib/alpha_footer.js">
 </script>
 
 <br>
