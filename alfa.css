@@ -35,6 +35,10 @@ body {
   color: white;
 }
 
+.tablink:hover {
+  background-color: #777;
+}
+
 .content {
   padding: 16px;
 }
