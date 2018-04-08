@@ -119,6 +119,8 @@ img{vertical-align: middle;}*/
 .text2{
   color: #333;
   font-size: 20px;
+  line-height: 1.75;
+  margin: 18px 0 0;
 }
 
 /* Number text (1/3 etc) */
