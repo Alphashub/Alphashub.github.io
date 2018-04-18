@@ -105,7 +105,7 @@ img{vertical-align: middle;}*/
   color: #717171;
   font-size: 35px;
   padding: 8px 12px;
-  position: absolute;
+  position: relative;
   bottom: 8px;
   width: 100%;
   text-align: center;
